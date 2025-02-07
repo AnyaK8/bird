@@ -1,0 +1,105 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(img/фон4.jpg);
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.container {
+    height: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0%;
+    padding-bottom: 4%;
+    background: rgba(56, 59, 71, 0.3);
+}
+.logo {
+    float: left;
+  }
+  nav {
+    float: right;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  nav li {
+    padding-left: 10px;
+    display: inline-block; /*один из способов разместить элементы в строку*/
+  }
+  h3 {
+    color: rgb(232, 231, 240);
+  }
+
+p {
+ text-align: justify;
+ margin-left: 3%;
+ margin-right: 2%;
+}
+
+tr {
+    background: rgb(128, 126, 126);
+}
+
+.t {
+    text-align: center;
+    padding-bottom: 1%;
+}
+.a {
+    width: 100%;
+    background: rgb(255, 255, 255, 0.568);
+    background-size: cover;
+    padding: 10px 0;
+}
+
+.table {
+    text-align: center;
+    padding-left: 10px;
+}
+img {
+    height: 250px;
+}
+
+
+
+.copyrghite{
+    color: rgb(255, 255, 255);
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    background: rgb(128, 126, 126);
+}
+.tooltiptext {
+    visibility: hidden;
+    background-color:rgba(128, 126, 126, 0.774);
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: -115%;
+    left: 120%;
+    margin-right: -280px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*footer*/
+.footer{
+    padding-top: 1%;
+    padding-bottom: 2%;
+    height: 60px;
+    background: rgba(56, 59, 71, 0.3);
+    color: rgb(224, 224, 233);
+    line-height: 50%;
+}
